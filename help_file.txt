@@ -18,10 +18,13 @@ El archivo .gitignore contiene las carpetas que seran excluidad del la sicroniza
 para excluir librerias externas como por ejemplo JQuery
 ----- ----- ----- ----- ----- -----
 
----- Creando ramas "branch"
+---- Creando ramas "branch" ----
 git branch              --> Muestra los branches
 git branch <branch name>        --> Crear branch <branch name>
 git checkout <branch name>      --> Cambiarse al branch <branch name>
+----- ----- ----- ----- ----- -----
 
-
-
+---- GitHub ----
+git remote add origin <repository link>     --> Link el repositorio local al reporsitorio remoto
+git push -u origin main                     --> Sincronizar el repositorio local con el repositorio remoto
+----- ----- ----- ----- ----- -----
