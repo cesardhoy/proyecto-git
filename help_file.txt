@@ -1,0 +1,14 @@
+git init                --> para iniciar el area de trabajo Git
+git status              --> para ver el estatos de los archivos del proyecto
+git add <file name>     --> para pasar el archivo <file name> al stagin area
+git add .               --> para pasar los TODOS archivos al stagin area
+
+git config --global user.email "<email>          --> para añadir el correo del usuario
+git config --global user.name "<nombre usuario>"  --> para añadir el nombre del usuario
+
+git commit      --> Para actualizar los archivos en el repositorio
+
+git log   --> Muestra los datos del proyecto
+
+git checkout -- <file name>     --> rollback los cambios. Devuelve la version que tenga commit en el branch
+git diff -- <file name>         --> Muestra los cambios del archivo <file name> vs el archivo el commited.
