@@ -1,15 +1,27 @@
-git init                --> para iniciar el area de trabajo Git
-git status              --> para ver el estatos de los archivos del proyecto
-git add <file name>     --> para pasar el archivo <file name> al stagin area
-git add .               --> para pasar los TODOS archivos al stagin area
-
-git config --global user.email "<email>          --> para añadir el correo del usuario
-git config --global user.name "<nombre usuario>"  --> para añadir el nombre del usuario
-
-git commit                  --> Para actualizar los archivos en el repositorio
-git commit -m "<comment>"   --> Para actualizar los archivos en el repositorio y añadir comentario <comment>
-
-git log   --> Muestra los datos del proyecto
-
+---- Comandos basicos
+git init                        --> para iniciar el area de trabajo Git
+git add <file name>             --> para pasar el archivo <file name> al stagin area
+git add .                       --> para pasar los TODOS archivos al stagin area
 git checkout -- <file name>     --> rollback los cambios. Devuelve la version que tenga commit en el branch
 git diff -- <file name>         --> Muestra los cambios del archivo <file name> vs el archivo el commited.
+git commit                      --> Para actualizar los archivos en el repositorio
+git commit -m "<comment>"       --> Para actualizar los archivos en el repositorio y añadir comentario <comment>
+
+git status                                          --> para ver el estatos de los archivos del proyecto
+git config --global user.email "<email>             --> para añadir el correo del usuario
+git config --global user.name "<nombre usuario>"    --> para añadir el nombre del usuario
+git log                                             --> Muestra los datos del proyecto
+
+
+--- Git Ignore file ".gitignore" ---
+El archivo .gitignore contiene las carpetas que seran excluidad del la sicronizacion en git, se utiliza basicamente
+para excluir librerias externas como por ejemplo JQuery
+----- ----- ----- ----- ----- -----
+
+---- Creando ramas "branch"
+git branch              --> Muestra los branches
+git branch <branch name>        --> Crear branch <branch name>
+git checkout <branch name>      --> Cambiarse al branch <branch name>
+
+
+
