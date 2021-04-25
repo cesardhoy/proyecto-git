@@ -28,3 +28,5 @@ git checkout <branch name>      --> Cambiarse al branch <branch name>
 git remote add origin <repository link>     --> Link el repositorio local al reporsitorio remoto
 git push -u origin main                     --> Sincronizar el repositorio local con el repositorio remoto
 ----- ----- ----- ----- ----- -----
+
+pull
