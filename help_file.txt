@@ -6,7 +6,8 @@ git add .               --> para pasar los TODOS archivos al stagin area
 git config --global user.email "<email>          --> para añadir el correo del usuario
 git config --global user.name "<nombre usuario>"  --> para añadir el nombre del usuario
 
-git commit      --> Para actualizar los archivos en el repositorio
+git commit                  --> Para actualizar los archivos en el repositorio
+git commit -m "<comment>"   --> Para actualizar los archivos en el repositorio y añadir comentario <comment>
 
 git log   --> Muestra los datos del proyecto
 
